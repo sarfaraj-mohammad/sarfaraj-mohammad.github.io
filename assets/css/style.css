@@ -321,6 +321,7 @@ h3 {
 
 #intro.section {
   background: #a7ffeb repeat;
+  /* background: #1f444a repeat; */
   position: relative;
 }
 
@@ -519,7 +520,11 @@ a.hoverline:hover {
 }
 
 .card-action a.btn-floating {
-  margin-bottom: 0;
+  margin-bottom: 5;
+  margin-right: 5;
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
 
 #contact a:not(.btn-floating) {
@@ -568,7 +573,7 @@ small {
 
 @media (min-width: 1200px) {
   #experience .container {
-    width: 860px;
+    width: 960px;
   }
 }
 
